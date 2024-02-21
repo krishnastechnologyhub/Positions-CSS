@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 70;
+  background-size: cover;
+}
+.btn {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600px;
+  font-family: sans-serif;
+  margin: 10px;
+}
+img {
+  opacity: 0.5;
+  height: 100vh;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
